@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Test cache
+.pytest_cache/
+
+# Data files (raw fetched data — not deliverables)
+*.parquet
+*.csv
+# Allow committed deliverables in results/
+!results/*.csv
+!results/*.png
+!results/RESULTS.md
